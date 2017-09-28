@@ -1,0 +1,58 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+header, article, aside, footer {
+	/*border: 1px solid;*/
+}
+/*-------Menu----------*/
+#menu {
+	
+}
+#menu a{
+	display: block;
+	text-decoration: none;
+	padding: 2em;
+}
+#menu ul {
+	display: flex;
+	list-style: none;
+	padding: 5px;
+}
+#menu ul li ul {
+	display:  none;
+	padding: 5px;
+}
+#menu ul li a:hover + ul, #menu ul li ul:hover {
+	
+}
+
+/*---------------------*/
+header {
+	background-color: #00add0;
+	height: 100px;
+}
+section {
+	
+}
+aside, article {
+	display: inline-block;
+  	vertical-align: top;
+  	height: 1000px;
+  	text-align: center;
+  	border:  1px solid white;
+  	color: white;
+}
+aside {
+	background-color: #03829b;
+	width: 20%;
+}
+article {
+	background-color: #56b6c9;
+  	position: absolute;
+  	width: 80%;
+}
+footer {
+	background-color: #4f848e;
+	height: 50px;
+}
